@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#222"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/box_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#222"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showFragment1"
+            android:text="热点" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showFragment2"
+            android:text="本地" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showFragment3"
+            android:text="财经" />
+    </LinearLayout>
+</LinearLayout>
